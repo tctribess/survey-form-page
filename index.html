@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form page</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description"><b>Fill in all fields below</b></p>
+
+        <div class="survey-form">
+            <form id="survey-form">
+                <fieldset>
+                    <div>
+                        <label for="name" id="name-label">Name:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome" required name=name />
+                    </div>
+                    <br>
+
+                    <div class="email-label">
+                        <label for="email" id="email-label">E-mail:<label />
+                            <input type="email" id="email" placeholder="Digite seu melhor e-mail" required name=email />
+                    </div>
+                    <br>
+                    <div class="number-label">
+                        <label for="number" id="number-label">Enter your age:</label>
+                        <input type="number" id="number" min="18" max="65" placeholder="Idade" required-name=number>
+                    </div>
+                    <br>
+
+                    <div class="dropdown">
+                        <label for="dropdown">Continent:</label>
+                        <select id="dropdown">
+                            <option select desable value="">Select one option</option>
+                            <option>África</option>
+                            <option>América</option>
+                            <option>Antártida</option>
+                            <option>Ásia</option>
+                            <option>Europa</option>
+                            <option>Oceania</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="options">
+                        <label for="options">Options:</label>
+                        <label for="firstoption"><input type="radio" id="firstoption" name="options"
+                                value="first Option">First option</label>
+                        <label for="secondoption"><input type="radio" id="secondoption" name="options"
+                                value="second option">Second option</label>
+                    </div>
+                    <br>
+
+                    <div class="value">
+                        <label for="value">Which one below would you follow?
+                        </label>
+                        <input type="checkbox" id="value" value="one">1
+                        <input type="checkbox" id="value" value="two">2
+                        <input type="checkbox" id="value" value="three">3
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="write">You can write below:</label>
+                        <br>
+                        <textarea id="write"></textarea>
+                    </div>
+
+                    <br>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit">
+            </form>
+            </fieldset>
+    </main>
+</body>
+
+</html>

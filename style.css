@@ -1,0 +1,45 @@
+body {
+    background: url(https://images.unsplash.com/photo-1633153010796-6cf54b5daebb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMzc4MzQ2NA&ixlib=rb-1.2.1&q=85);
+    font-family: monospace;
+  }
+  
+  main {
+    height: auto;
+    width: 600px;
+    align-items: justify;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 0 700px 200px 300px;
+    color: white;
+   }
+  
+  
+  #description {
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  
+  textarea{
+    width: 593px;
+    height: 100px;  
+  }
+  
+  #submit {
+    margin: 4px 250px 0 250px;
+    color: black;
+    padding: 3px 35px 3px 30px;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  div {
+    padding-bottom: 15px;
+  }
+  
+  
+  
