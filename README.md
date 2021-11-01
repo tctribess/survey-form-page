@@ -9,6 +9,8 @@ Tecnologias usadas:
 * HTML
 * CSS
 
+## Preview page
+<img src="preview-page.PNG" height=" 250px"></img> 
 
 
 
